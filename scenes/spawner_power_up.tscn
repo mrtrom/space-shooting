@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://scenes/spawner_enemy.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scripts/spawner_power_up.gd" type="Script" id=2]
+
+[node name="spawner_power_up" instance=ExtResource( 1 )]
+
+script = ExtResource( 2 )
+
+
